@@ -1,0 +1,208 @@
+@font-face {
+	font-family: 'Intro';
+	src: url('../../../../fonts/Intro.woff') format('woff2');
+  src: url('../../../../fonts/Intro.woff2') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.container {
+  margin-top: 100px;
+  
+  max-width: 100%;
+  height: 92vh;
+  background: url('../../../../images/main.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  font-family: 'Intro', sans-serif;
+}
+
+.banner__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  padding-left: 20vh;
+  padding-top: 9vh;
+}
+
+.banner__text-big1 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 44px;
+  text-shadow: black 2px 2px;
+}
+
+.banner__text-big2 {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 64px;
+  text-shadow: black 3px 3px;
+}
+
+.banner__text-small {
+  color: orange;
+  font-size: 24px;
+  text-shadow: black 1px 1px;
+}
+
+.banner__btn {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  margin-top: 5vh;
+  width: 16vh;
+  height: 6vh;
+  color: black;
+  font-size: 20px;
+  background-color: orange;
+  border-color: orange;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.banner__btn:hover {
+  color: orange;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+@media (max-width: 1024px) {
+  .banner__inner {
+    padding-left: 9vh;
+    padding-top: 7vh;
+  }
+  .banner__text-big1 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 44px;
+    text-shadow: black 1px 1px;
+  }
+  .banner__text-big2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 64px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .banner__text-small {
+    color: orange;
+    font-size: 32px;
+    text-shadow: black 1px 1px ;
+  }
+  .banner__btn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner__inner {
+    padding-left: 4vh;
+    padding-top: 7vh;
+  }
+  .banner__text-big1 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 44px;
+    text-shadow: black 1px 1px;
+  }
+  .banner__text-big2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 64px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .banner__text-small {
+    color: orange;
+    font-size: 32px;
+    text-shadow: black 1px 1px ;
+  }
+  .banner__btn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__inner {
+    padding-left: 3vh;
+    padding-top: 7vh;
+  }
+  .banner__text-big1 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 34px;
+    text-shadow: black 1px 1px;
+  }
+  .banner__text-big2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 42px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .banner__text-small {
+    color: orange;
+    font-size: 22px;
+    text-shadow: black 1px 1px ;
+  }
+  .banner__btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner__inner {
+    padding-left: 3vh;
+    padding-top: 7vh;
+  }
+  .banner__text-big1 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 32px;
+    text-shadow: black 1px 1px;
+  }
+  .banner__text-big2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .banner__text-small {
+    color: orange;
+    font-size: 20px;
+    text-shadow: black 1px 1px ;
+  }
+  .banner__btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner__inner {
+    padding-left: 3vh;
+    padding-top: 7vh;
+  }
+  .banner__text-big1 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 28px;
+    text-shadow: black 1px 1px;
+  }
+  .banner__text-big2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 36px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .banner__text-small {
+    color: orange;
+    font-size: 16px;
+    text-shadow: black 1px 1px;
+  }
+  .banner__btn {
+    font-size: 14px;
+  }
+}

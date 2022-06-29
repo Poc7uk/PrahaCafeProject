@@ -1,8 +1,13 @@
 import React from "react";
-import MainPage from "../components/main-page/mainPage";
+import { Banner, Menu } from "../components/main-page";
 
 const Home = () => {
-  return <MainPage />;
+  return (
+    <>
+      <Banner />;
+      <Menu />
+    </>
+  );
 };
 
 export default Home;

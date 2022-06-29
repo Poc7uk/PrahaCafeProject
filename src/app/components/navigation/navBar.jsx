@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 
-import logoL from "../../../images/logoL.png";
+import logoL from "../../assets/images/logoL.png";
 
 const NavBar = () => {
   return (
     <div className="header fixed-top">
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-          <Link className="logo navbar-brand" to="/">
+          <Link className="logo navbar-brand" to="/home">
             <img className="logo__img" src={logoL} alt="logo" />
           </Link>
           <button

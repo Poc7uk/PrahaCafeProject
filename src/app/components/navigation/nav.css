@@ -3,6 +3,7 @@
   background-color: #21211f;
   background-size: cover;
   color: lightgray;
+  min-height: 101px;
 }
 
 .nav-link {
@@ -13,7 +14,7 @@
   font-weight: 700;
   text-transform: uppercase;
   margin: 0 1rem 0 1rem;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 .fixed-top .navbar-nav .nav-link:hover {

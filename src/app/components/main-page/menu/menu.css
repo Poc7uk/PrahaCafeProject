@@ -1,0 +1,13 @@
+.menu__container {
+  width: 100%;
+  height: calc(100vh - 101px);
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.loader__inner {
+font-size: 80px;
+}

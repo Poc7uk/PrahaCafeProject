@@ -1,11 +1,11 @@
 import React from "react";
 import "./banner.css";
 
-const Banner = () => {
+export const Banner = () => {
   return (
-    <div className="container">
-      <div className="banner row">
-        <div className="banner__inner col-xs-12">
+    <div className="container banner__container">
+      <div className="banner">
+        <div className="banner__inner">
           <h1 className="banner__text-big1">Доставка Їжі у Ходорові</h1>
           <p className="banner__text-small">Прага дарує знижки</p>
           <h1 className="banner__text-big2">
@@ -17,5 +17,3 @@ const Banner = () => {
     </div>
   );
 };
-
-export default Banner;

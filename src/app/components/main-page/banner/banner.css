@@ -6,6 +6,8 @@
 	font-style: normal;
 }
 
+@import url(//db.onlinewebfonts.com/c/0f106940a384f214837a8df504786e1a?family=Formular);
+
 .banner__container {
   padding-top: 100px;
   max-width: 100%;
@@ -44,24 +46,28 @@
 }
 
 .banner__btn {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 900;
+  font-family: 'Formular', sans-serif;
+  font-weight: 800;
+  font-stretch: 100%;
+  letter-spacing: 0.1rem;
   margin-top: 5vh;
   padding: 2.7% 2.7%;
 
+
   color: black;
-  font-size: 100%;
-  letter-spacing: 0.08rem;
   background-color: orange;
   border-color: orange;
-  transition: 0.3s;
+  box-shadow: 0 0 40px 40px orange inset, 0 0 0 0 orange;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
   text-transform: uppercase;
 }
 
 .banner__btn:hover {
   color: orange;
   background-color: transparent;
-  transition: 0.3s;
+  box-shadow: 0 0 10px 0 orange inset, 0 0 10px 4px orange;
+
 }
 
 @media (max-width: 1024px) {

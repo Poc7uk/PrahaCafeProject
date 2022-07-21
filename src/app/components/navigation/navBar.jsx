@@ -9,7 +9,7 @@ const NavBar = () => {
     <div className="header fixed-top">
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-          <Link className="logo navbar-brand" to="/home">
+          <Link className="logo navbar-brand" to="/">
             <img className="logo__img" src={logoL} alt="logo" />
           </Link>
           <button
@@ -30,12 +30,12 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/delivery" className="nav-link">
                   Доставка
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/about" className="nav-link">
                   Про нас
                 </Link>
               </li>

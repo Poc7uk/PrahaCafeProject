@@ -1,11 +1,12 @@
 import React from "react";
-import { Banner, Menu } from "../components/main-page";
+import { Banner, Delivery, Menu } from "../components/main-page";
 
 const Home = () => {
   return (
     <>
-      <Banner />;
+      <Banner />
       <Menu />
+      <Delivery />
     </>
   );
 };

@@ -29,7 +29,7 @@ const useApi = (data) => {
       });
   }, []);
 
-  return [apiData, apiError, apiLoading];
+  return [apiData, apiLoading, apiError];
 };
 
 export default useApi;

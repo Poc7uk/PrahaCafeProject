@@ -1,7 +1,8 @@
 
 .fixed-top {
   background-color: #21211f;
-  background-size: cover;
+  background-image: url('../../assets/images/footer-wall.jpg');
+  background-size: contain;
   color: lightgray;
   min-height: 101px;
 }
@@ -39,9 +40,8 @@
   line-height: 24px;
   font-size: 21px;
   font-weight: 700;
-  text-transform: uppercase;
   white-space: nowrap;
-  margin: 0 1rem 0 1rem;
+  margin: 0 1.2vw;
   transition: 0.3s
 }
 
@@ -50,7 +50,8 @@
   color: orange
 }
 
-.bi-telephone {
+.bi-telephone,
+.bi-envelope {
   color: orange;
 }
 
